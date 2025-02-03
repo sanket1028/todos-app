@@ -1,0 +1,21 @@
+{
+  "name": "todos-app",
+  "version": "1.0.0",
+  "description": "Basic Todo's app Web API's with authentication using jwt , bcrypt with salting to store the hash password in DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.6",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
